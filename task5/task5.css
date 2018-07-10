@@ -1,0 +1,210 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #5fc0cd;
+    line-height: 5rem;
+    text-align: center;
+    background-image: url(back.png);
+    background-size: 1rem;
+    background-position: 2rem 2.5rem;
+    background-repeat: no-repeat;
+    padding: 0.8rem 1rem 0.8rem 2rem;
+}
+.page{
+    color: white;
+    font-size: 150%;
+    font-weight: 550;
+    margin-left: -2.5rem;
+}
+footer{
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4rem;
+}
+.words{
+    display: inline-block;
+    width: 44%;
+    background-color: white;
+    color: #5fc0cd;
+    border: 2px solid #5fc0cd;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+.tel{
+    display: inline-block;
+    width: 44%;
+    background-color: #5fc0cd;
+    color: white;
+    border: 2px solid #5fc0cd;
+    border-radius: 5px;
+    margin-left: 1rem;
+} 
+main{
+    background-image: url(beijing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:20rem;
+    width: 100%;
+    font-size: 1.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem
+  
+}
+.box2{
+    background-image: url(touxiang.png);
+    background-repeat: no-repeat;
+    background-size: 8rem;
+    height: 50%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.picture{
+    background-image: url(dian.png);
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    display: flex;
+}
+.address{
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: -0.01rem
+}
+ul{
+
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    font-size: 1.3rem;
+    padding: 0;
+    font-weight: 550;
+
+}
+.skill{
+    border-bottom: 1px solid #ccc;
+}
+.skill1{
+    border-left: 2px solid #5fc0cd;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+.live{
+    background-image: url(星星.png);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 1rem ;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 3rem;
+}
+.live1{
+    padding-left: 3rem;
+}
+.food{
+    background-image: url(星星.png);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 1rem ;
+}
+.food1{
+    padding-left: 3rem;
+
+}
+.time{
+    display: flex;
+    margin-left:1rem;
+    margin-right:1rem;
+    line-height:3rem;
+    border-bottom: 1px solid #ccc;
+}
+.time1{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    color:#ccc;
+}
+.time2{
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+}
+.long{
+    display: flex;
+    margin-left:1rem;
+    margin-right:1rem;
+    line-height:3rem;
+    border-bottom: 1px solid #ccc;
+}
+.long1{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    color:#ccc;
+}
+.long2{
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+}
+.money{
+    display: flex;
+    margin-left:1rem;
+    margin-right:1rem;
+    line-height:3rem;
+    border-bottom: 1px solid #ccc;
+}
+.money1{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    color:#ccc;
+}
+.money2{
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+    color:#E26163;
+}
+.intro{
+    display:flex;
+    margin-left:1rem;
+    margin-right:1rem;
+    line-height:3rem;
+    border-bottom: 1px solid #ccc;
+
+}
+.intro1{
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    color:#ccc;
+     white-space: nowrap;
+    display: flex;
+    align-items: center; 
+
+}
+.intro2{
+    padding-left: 1rem;
+    border-left: 1px solid #ccc;
+    /* word-break:break-all;  */
+
+}

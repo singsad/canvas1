@@ -1,0 +1,81 @@
+html{
+    font-size: 62.5%
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFF0F4
+}
+.box1{
+    color: white;
+    background-color: #5fc0cd;
+    height: 4rem;
+    position: relative;
+    top:0;
+    width: 100%;
+}
+.box2{
+    font-size: 150%;
+    position: absolute;
+    margin-top:1.5rem;
+    left:1rem;
+}
+.box3{
+    font-size: 150%;
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    margin-left:-1.5rem;
+    top:2rem;
+}
+.box4{
+    font-size: 150%;
+    position: absolute;
+    right:1rem;
+    margin-top:1.5rem;
+}
+.space{
+    height: 1rem;
+}
+.username{
+    background-image: url(iphone.png);
+    background-size: 2rem;
+    background-position: 1.5rem 1rem;
+    background-repeat: no-repeat;
+    padding: 0.8rem 1rem 0.8rem 6rem;
+    margin:1rem;
+    width:70%;
+    height: 4rem;
+}
+.password{ 
+    background-image: url(iphone.png);
+    background-size: 2rem;
+    background-position: 1.5rem 1rem;
+    background-repeat: no-repeat;
+    padding: 0.8rem 1rem 0.8rem 6rem;
+    margin:1rem;
+    width:70%;
+    height: 4rem;
+}
+.space1{
+    height: 1rem;
+}
+.button{
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 150%;
+    border:none;
+}
+.forgot{
+    font-size: 120%;
+    position: relative;
+    top:-1rem;
+    float: right;
+    color: #5fc0cd;
+    margin-right: 1rem;
+    margin-top:1rem;
+}

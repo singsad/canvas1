@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav {
+            background-color: #ccc;
+            width: 100%;
+            margin: 0 auto;
+            height: 40px;
+
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            padding: 0 20px;
+            line-height: 40px;
+        }
+        a{
+            text-decoration: none;
+            color:blue;
+            display: block;
+            padding: 0 20px;
+        }
+        a:hover{
+            background-color: yellow;
+            color:red;
+        }
+        .erji{
+            float: none;
+            background-color: #ccc;
+        }
+        .erji a:hoverZ{
+            color:pink;
+            background-color:red;
+        }
+        erji_ul{
+            display: none;
+        }
+        ul li:hover .erji_ul{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#">百度</a>
+            <ul class="erji_ul">
+                <li class="erji"><a href="#">222</a></li>
+                <li class="erji"><a href="#">222</a></li>
+            </ul>
+            </li>
+            <li>
+                <a href="#">经验</a></li>
+            <li>
+                <a href="#">生活</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

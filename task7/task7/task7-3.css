@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: aqua;
+    height: 5rem;
+    padding: 1rem;
+}
+
+main {
+    background-color: aqua;
+    margin: 7rem auto;
+    text-align: center;
+    height: 30rem;
+}
+
+.left {
+    height: 5rem;
+}
+
+.center {
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.content {
+    margin: 3rem 5rem;
+}

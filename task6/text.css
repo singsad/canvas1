@@ -1,0 +1,32 @@
+.box {
+    width: 600px;
+    height: 300px;
+    border: 3px solid #ccc;
+    background-color: #8064A2;
+}
+
+span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #ccc;
+    background-image: url(csssprites.png);
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.icon1 {
+    background-position:-0 -0;
+}
+
+.icon2 {
+    background-position: -40px 0;
+}
+
+.icon3 {
+    background-position: 0 -25px;
+}
+
+.icon4 {
+    background-position: -40px -25px;
+}
