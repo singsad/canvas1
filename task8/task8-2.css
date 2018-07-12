@@ -98,7 +98,7 @@ body {
         left: 0;
         background-color: #fff;
         text-align: center;
-        margin-top: 2.2rem;
+        margin-top: 2.4rem;
     }
 }
 
@@ -337,8 +337,6 @@ body {
 
 }
 
-.bigbox:hover .hover-word{
-}
 
 
 footer {
@@ -385,7 +383,9 @@ ul.unstyled {
     margin-right: 20%;
     padding-left: 0;
 }
-
+.kongge {
+    height: 2.8rem;
+}
 ul>li>a {
     color: #fff;
 }
