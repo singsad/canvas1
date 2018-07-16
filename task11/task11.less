@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%
+}
+@bc:#EFF0F4;
+@c:white;
+@bc_1:#5fc0cd;
+@h:5rem;
+@p:relative;
+@p_1:absolute;
+@br:2px solid #EFF0F4;
+@m:1.5rem;
+@dp:flex;
+@fs:1.6rem;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: @bc;
+}
+
+.box1{
+    color:@c;
+    background-color: @bc_1;
+    height:@h;
+    position: @p;
+    top:0;
+    width: 100%;
+    display: @dp;
+    justify-content: space-between;
+    align-items: center;
+    .box2{
+        font-size: @fs;
+        margin: @m;
+    }
+    .box21{
+        margin-right: 0;
+    }
+    .box3{
+        font-size: @fs+0.2;
+        font-weight: bold;
+    }
+    .box4{
+        .box2;
+        margin-left: 0;
+    }
+}
+.space1{
+    height: @h - 4;
+}
+.text{
+    background-color: @c;
+    position: @p;
+      img{
+        width: @h - 3;
+        height: @h - 2;
+        display: inline-block;
+        border-right: @br;
+        margin: 1rem 2rem;
+        padding-right: 2.5rem;
+    }
+    input{
+        display: inline-block;
+        position: @p_1;
+        top:1rem;
+        width: 65%;
+        padding-left: 1.5rem;
+        height: 60%;
+        outline: none;
+
+    }
+}
+.text2{
+    .text;
+}
+.button{
+    background-color: @bc_1;
+    width: 100%;
+    height: @h - 1;
+    color: @c;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    border:none;
+}
+.forgot{
+    font-size: 1.6rem;
+    position: @p;
+    float: right;
+    color: @bc_1;
+    margin-right: 1rem;
+}
