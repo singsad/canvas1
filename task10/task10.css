@@ -6,10 +6,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-
 }
 
-header{
+header {
     /* height: 5rem; */
     width: 100%;
     background-color: #1d7ad9;
@@ -18,34 +17,30 @@ header{
     font-size: 1.4rem;
 }
 
-.tel{
-   
-}
-.headright{
+.headright {
     float: right;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
-.login{
+.login {
     display: inline-block;
     width: auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
     border-left: 1px solid #fff;
     text-align: center;
-
 }
-.join{
+
+.join {
     display: inline-block;
     width: auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
     text-align: center;
-
 }
 
 .login:hover {
-    width: 10rem;
+    width: 8rem;
     color: #000;
     background-color: #fff;
     text-align: center;
@@ -53,56 +48,80 @@ header{
     padding: 0 2rem;
     margin-right: -2rem;
 }
-.login:hover+ .join{
+
+.login:hover+.join {
     width: 7rem;
     /* display: inline-block; */
     padding: 0;
     text-align: center;
-    padding-left:1rem ;
+    padding-left: 1rem;
 }
 
-.join:hover{
-    width: 10rem;
+.join:hover {
+    width: 8rem;
     color: #000;
     background-color: #fff;
     text-align: center;
     padding: 0 2rem;
 }
-main{
+
+.bcc {
     background-color: #f9f9f9;
-
 }
 
-.choose{
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 2rem 0;
-}
-.choose1{
+.headleft1 {
     display: inline-block;
-    padding: 1rem;
     background-color: #fff;
-    border: 1px solid #f9f9f9;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    line-height: 5rem;
+    width: auto;
+    padding: 0 2rem;
     border-radius: 10%;
-    margin-left: 4rem;
-}
-.choose1:hover{
-    color: #fff;
-    background-color: #1d7ad9;
 }
 
-.rod{
+.headleft1:hover {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .headleft1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+ 
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+    .step {
+        display: flex;
+        transform: scale(0.8)
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+    .step {
+        display: flex;
+        justify-content: center;
+        transform: scale(0.6)
+    }
+}
+
+.rod {
     display: inline-block;
     width: 12rem;
     height: 0.5rem;
     background-color: #ccc;
-    border-radius: 20%;
+    border-radius: 10%;
     text-align: center;
     position: relative;
     margin-top: 2rem;
 }
 
-.circle{
+.circle {
     display: inline-block;
     height: 2rem;
     width: 2rem;
@@ -111,46 +130,54 @@ main{
     text-align: center;
     color: #fff;
     position: absolute;
-    top:-0.75rem;
+    top: -0.75rem;
     left: 5rem;
 }
 
-.word1{
+.word1 {
     color: #ccc;
     margin-top: 2rem;
+    font-size: 1.8rem;
 }
 
-
-.step1{
+.step1 {
     text-align: center;
     margin-right: -0.5rem;
 }
 
-.step1:hover .word1{
-    color:orange;
+.step1:hover .word1 {
+    color: orange;
+}
 
-}
-.step1:hover .rod{
+.step1:hover .rod {
     background-color: orange;
 }
-.step1:hover .circle{
+
+.step1:hover .circle {
     background-color: orange;
 }
-.step2{
+
+.step2 {
     text-align: center;
     margin-right: -0.5rem;
 }
-.rod2{
+
+.step3 {
+    margin-right: 0;
+}
+
+.rod2 {
     display: inline-block;
     width: 12rem;
     height: 0.5rem;
     background-color: orange;
-    border-radius: 20%;
+    border-radius: 10%;
     text-align: center;
     position: relative;
     margin-top: 2rem;
 }
-.circle2{
+
+.circle2 {
     display: inline-block;
     height: 2rem;
     width: 2rem;
@@ -159,15 +186,430 @@ main{
     text-align: center;
     color: #fff;
     position: absolute;
-    top:-0.75rem;
+    top: -0.75rem;
     left: 5rem;
 }
-.word2{
+
+.word2 {
     color: orange;
     margin-top: 2rem;
-}
-.step{
-    display: flex;
-    flex-direction: row-reverse;
+    font-size: 1.8rem;
 }
 
+.step {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+}
+
+main>.introduce {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.introduce1 {
+    border-left: 5px solid #1d7ad9;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.choose-box{
+    height: 4rem;
+    background-color: #f9f9f9;
+    width: 100%;
+    line-height: 4rem;
+}
+
+.box2 {
+    font-size: 1.8rem;
+
+}
+
+.icon1 {
+    background-image: url(box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 2rem;
+    float: left;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.font1 {
+    font-weight: bold;
+}
+
+.box3 {
+    display: inline-block;
+    height: 6rem;
+    width: auto;
+    margin-top: 4rem;
+    margin-right: 6rem;
+    margin-left: 3rem;
+    position: relative;
+}
+.box3 label {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.box34 label {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.box3 input:checked+label::after {
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    border: 5.5px solid #1d7ad9;
+    background-color: #fff;
+    border-radius: 50%;
+    left: -1px;
+    top: -1px;
+}
+
+.box4 {
+    opacity: 0;
+}
+
+.box3>.box11 {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.box2>.first-step>.dropdown-first>select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.dropdown-first {
+    display: inline-block;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top:35%;
+
+    margin-right: 1rem;
+}
+.first-step{
+    position: relative;
+}
+
+
+
+.bigbox1 {
+    padding-bottom: 3rem;
+}
+
+.dropdown-first::after {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    background: url(sanjiao.png) no-repeat center;
+    position: absolute;
+    pointer-events: none;
+    top: 15%;
+    right: -0.8rem;
+}
+
+.icon2 {
+    background: url(Ruler.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 2rem;
+    float: left;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.ruler {
+    height: 4rem;
+    width: 100%;
+    line-height: 4rem;
+    background-color: #f9f9f9;
+    font-size: 1.8rem;
+}
+
+.box31 {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    margin-right: -1rem;
+}
+
+.box32 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.long {
+    display: inline-block;
+    margin-left: 6rem;
+    line-height: 4rem;
+}
+
+.long1 {
+    width: 7rem;
+    height: 3rem;
+}
+
+.first-step>.dropdown-first>select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.dropdown1 {
+    margin-top: -3rem;
+}
+
+.kongge {
+    width: 100%;
+    height: 1rem;
+}
+
+.cut {
+    height: 4rem;
+    width: 100%;
+    line-height: 4rem;
+    background-color: #f9f9f9;
+    font-size: 1.8rem;
+}
+
+.icon3 {
+    background: url(Cut\ _\ Scissors.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 2rem;
+    float: left;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.box31 label {
+    position: absolute;
+}
+
+.box32 label {
+    position: absolute;
+    top:0.8rem;
+}
+
+.dropdown2 {
+    margin-top: 1rem;
+}
+
+.sab>.dropdown-first>select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    outline: none;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.next {
+    margin-top: 14rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.next-step {
+    background-color: #e15053;
+    width: 18rem;
+    line-height: 4rem;
+    margin: auto;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.gap {
+    width: 100%;
+    height: 20rem;
+}
+
+footer {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.address {
+    background-color: #1d7ad9;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 2rem;
+    text-align: center;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.container>.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container>.row>.col-sm-4 {
+    margin-left: 15px;
+    padding-left: 0;
+}
+
+.foot2 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+@media (min-width:768px) {
+    .container>.row>.footright4 {
+        width: auto;
+        float: right;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .container>.footbox1>.footright4 {
+        float: left;
+        width: auto;
+    }
+}
+
+.footbox1 {
+    font-size: 1.8rem;
+}
+
+.unstyled>.foot1>a {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+}
+
+.footright3 {
+    margin-right: 2rem;
+}
+
+.footright4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-tel>p {
+    font-size: 1.4rem;
+}
+.sab{
+    position: relative;
+}
+.dropdown-first1{
+    position: absolute;
+    top:50%;
+
+}
+
+.dropdown-first2{
+    position: absolute;
+    top:0;
+}
+
+@media screen and (max-width:768px) {
+    .box3{
+        margin-left: 1rem;
+        width: 30%;
+ }
+    .long{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .cut{
+        margin-top: 2rem;
+    }
+    .box32{
+        margin-top: 2rem;
+    }
+
+ }
+ @media screen and (min-width:768px) and (max-width:992px) {
+  
+     .long{
+         margin-left: 0;
+     }
+     .box33{
+         width: 50%;
+     }
+     .dropdown-first2{
+        position: absolute;
+        top:40%;
+    }
+ }
+ 
+ @media screen and (max-width:767px){
+   .box33{
+       width: 50%;
+   }
+     
+.dropdown-first {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.dropdown-first1{
+    position: absolute;
+    top:60%;
+}
+.dropdown-first2{
+    position: absolute;
+    top:45%;
+}
+
+}
