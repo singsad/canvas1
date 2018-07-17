@@ -1,0 +1,213 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+@pf:fixed;
+@bc-1:#5fc0cd;
+@c:#fff;
+@bc-2:#fff;
+@br:5px;
+@ds:flex;
+@b:2px solid @bc-1;
+@b-1:1px solid #ccc;
+header{
+    position: @pf;
+    top:0;
+    width: 100%;
+    background-color: @bc-1;
+    line-height: 5rem;
+    text-align: center;
+    .icon1{
+        background-image: url(back.png);
+        background-size: 1rem;
+        background-repeat: no-repeat;
+        width: 2rem;
+        height: 2rem;
+        float: left;
+        margin: 1.5rem 1.5rem;
+        margin-right: 0;
+        line-height: 2rem;
+    }
+    .page{
+        color: @c;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-left: -3.5rem;
+    }
+}
+
+
+footer{
+    position: @pf;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    display: @ds;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    line-height: 4rem;
+    .words{
+        width: 44%;
+        background-color: @bc-2;
+        color: @bc-1;
+        border: @b;
+        border-radius: @br;
+ 
+    }
+    .tel{
+        width: 44%;
+        background-color: @bc-1;
+        color: @bc-2;
+        border: @b;
+        border-radius: @br;
+    } 
+}
+
+
+main{
+    background-image: url(beijing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:18rem;
+    width: 100%;
+    font-size: 1.8rem;
+    color: @bc-2;
+    display: @ds;
+    align-items: center;
+    margin-top: 5rem;
+    .box2{
+        background-image: url(touxiang.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 8rem;
+        width: 8rem;
+        margin-left: 1.5rem;
+    }
+    .word{
+        display: @ds;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+
+    .picture{
+        background-image: url(dian.png);
+        background-repeat: no-repeat;
+        background-size: 1.2rem;
+        display: @ds;
+        margin-top: 1rem;
+    }
+    .address{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+}
+}
+
+ul{
+    display: @ds;
+    flex-direction: column;
+    list-style:none;
+    font-size: 1.6rem;
+    padding: 0;
+    font-weight: bold;
+    margin: 0;
+
+    .skill{
+        border-bottom: @b-1;
+        height: 5rem;
+        .skill1{
+            border-left:@b;
+            padding-left: 1rem;
+            margin-left: 1rem;
+        }
+    }
+  
+    .live{
+        background-image: url(星星.png);
+        background-repeat: no-repeat;
+        background-size: 1.5rem;
+        background-position: 1rem ;
+        display: @ds;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-bottom:@b-1;
+        height: 5rem;
+        .live1{
+            padding-left: 3rem;
+        }
+        .food{
+            background-image: url(星星.png);
+            background-repeat: no-repeat;
+            background-size: 1.5rem;
+            background-position: 1rem ;
+            .food1{
+                padding-left: 3rem;
+            }
+        }
+    }
+   
+   
+    .time{
+        display: @ds;
+        align-items: center;
+        margin-left:1rem;
+        margin-right:1rem;
+        border-bottom: @b-1;
+        height: 5rem;
+        .time1{
+            padding-left: 1.5rem;
+            padding-right: 1rem;
+            color:#ccc;
+        }
+        .time2{
+            padding-left: 1rem;
+            border-left: @b-1;
+        }
+    }
+    .long{
+        .time;
+        .long1{
+            .time1;
+        }
+        .long2{
+            .time2;
+        }
+    }
+   
+    .money{
+        .time;
+        .money1{
+            .time1;
+           }
+           
+    .money2{
+       .time2;
+       color:#E26163;
+
+    }
+    }
+    .intro{
+        display:@ds;
+        margin-left:1rem;
+        margin-right:1rem;
+        align-items: center;
+        border-bottom: @b-1;
+        min-height: 5rem;
+        .intro1{
+            .time1;
+             white-space: nowrap;
+            display: flex;
+            align-items: center; 
+            border-right: @b-1;
+
+        }
+        .intro2{
+            padding-left: 1rem;
+        }
+    }
+  
+}

@@ -1,0 +1,306 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+}
+@b:1px solid #ccc;
+@pf:fixed;
+@bc-1:#5fc0cd;
+@c:white;
+@ds:flex;
+@pr:relative;
+@pa:absolute;
+header {
+    position: @pf;
+    top: 0;
+    width: 100%;
+    background-color: @bc-1;
+    height: 5rem;
+    color: @c;
+    text-align: center;
+    z-index: 3;
+    display: @ds;
+    align-items: center;
+    justify-content: center;
+    .icon {
+        display: inline-block;
+        position: @pf;
+        top: 0;
+        right: 0;
+        width: 42px;
+        height: 44px;
+        background-image: url(csssprites.png);
+        background-repeat: no-repeat;
+        background-position: -144px -0;
+        transform: scale(0.6);
+        background-color: @bc-1;
+    }
+    
+    .head1 {
+        background-color: #55a8b3;
+        height: 3.5rem;
+        border-radius: 5px;
+        margin-right: -5px;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: @c;
+    }
+    
+    .head2 {
+        background-color: @c;
+        height: 3.5rem;
+        color: @bc-1;
+        border-radius: 12%;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+}
+
+
+
+.nav{
+    height: 5rem;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1.4rem;
+    margin: 0;
+    height: 5rem;
+    border-bottom: @b;
+    display: @ds;
+    align-items: center;
+}
+.nav>li{
+    float: left;
+    width: 33%;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000; 
+    margin: 1rem 0;
+    
+}
+.right-border{
+    border-right: @b;
+}
+.drop-down{
+    position: @pr;
+    
+}
+.drop-down-content{
+    padding: 0;
+    display: none;
+    position: @pa;
+    width: 100%;
+    height: auto;
+    border: @b;
+    background-color: @c;
+}
+
+
+.nav .drop-down:hover .drop-down-content{
+    display: block;
+}
+
+.left {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: @ds;
+    flex-direction: column;
+    border-bottom: @b;
+    position: relative;
+    z-index: -1;
+}
+
+.content1 {
+    font-size: 1.2rem;
+    color: #ccc;
+    display:@ds;
+    position: @pr;
+    margin-top: 1rem;
+}
+
+.icon4 {
+    background-image: url(csssprites.png);
+    background-position: -38px -0;
+    background-repeat: no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: scale(0.5);
+    margin-top: -0.5rem;
+}
+
+.date {
+    display: inline-block;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 50%;
+    /* word-break:break-all; */
+    font-weight: 800;
+    margin-left: 2.5rem;
+    /* margin-top: 0.5rem; */
+    
+}
+
+.content3 {
+   
+    line-height: 3rem;
+    font-size: 1.3rem;
+    
+}
+
+.content2 {
+    font-size: 1.2rem;
+    color: #ccc;
+    display: @ds;
+    margin-bottom: 1rem;
+}
+
+.money1 {
+    color: #f44;
+    position: @pa;
+    right:5rem;
+}
+
+.icon6 {
+    background-image: url(csssprites.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 1.9rem;
+    height: 3.3rem;
+    transform: scale(0.5);
+    float: right;
+    margin-right: 1rem;
+}
+
+.icon5 {
+    background-image: url(csssprites.png);
+    background-position: -19px -0;
+    background-repeat: no-repeat;
+    width: 1.9rem;
+    height: 2.3rem;
+    transform: scale(0.5);
+    margin-top: -0.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer1{
+    height: 5rem;
+}
+.footer {
+    width: 100%;
+    line-height: 5rem;
+    font-size: 1.2rem;
+    position: @pf;
+    display: @ds;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: space-between;
+    /* 重要的定位 */
+    bottom: 0;
+    border-top: @b;
+    z-index: 1000;
+    background-color: @c;
+    
+}
+
+.box1 {
+    display: @ds;
+    flex-direction: column;
+    /* 垂直排列 */
+    width: 30%;
+    margin-left: 2rem;
+    margin-bottom: -1rem;
+}
+
+.icon1 {
+    background-image: url(csssprites.png);
+    background-position: -186px -0;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 5rem;
+    transform: scale(0.5);
+    margin: auto;
+    /* 使得图片与文字对齐 */
+    margin-bottom: -2.3rem;
+    background-color: @c;
+}
+
+.foot1 {
+    color: @bc-1;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.box2 {
+    background-color: @bc-1;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: @ds;
+    justify-content: center;
+    /* 笔记水平居中 */
+}
+
+.icon2 {
+    background-image: url(csssprites.png);
+    background-position: -62px -0;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    transform: scale(0.5);
+    align-self: center;
+    /* 垂直居中 */
+    background-color: @bc-1;
+}
+
+.box3 {
+    display: @ds;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: -1rem;
+    margin-right: 2rem;
+}
+
+.icon3 {
+    background-image: url(csssprites.png);
+    background-position: -102px -0;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 4rem;
+    transform: scale(0.5);
+    margin: auto;
+    margin-bottom: -2.3rem;
+    background-color: @c;
+}
+
+.foot3 {
+    color: #ccc;
+    text-align: center;
+}

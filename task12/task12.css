@@ -1,0 +1,225 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5fc0cd;
+  line-height: 5rem;
+  text-align: center;
+}
+header .icon1 {
+  background-image: url(back.png);
+  background-size: 1rem;
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin: 1.5rem 1.5rem;
+  margin-right: 0;
+  line-height: 2rem;
+}
+header .page {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: -3.5rem;
+}
+footer {
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.7rem;
+  line-height: 4rem;
+}
+footer .words {
+  width: 44%;
+  background-color: #ffffff;
+  color: #5fc0cd;
+  border: 2px solid #5fc0cd;
+  border-radius: 5px;
+}
+footer .tel {
+  width: 44%;
+  background-color: #5fc0cd;
+  color: #ffffff;
+  border: 2px solid #5fc0cd;
+  border-radius: 5px;
+}
+main {
+  background-image: url(beijing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+  width: 100%;
+  font-size: 1.8rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+main .box2 {
+  background-image: url(touxiang.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 8rem;
+  width: 8rem;
+  margin-left: 1.5rem;
+}
+main .word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+main .word .picture {
+  background-image: url(dian.png);
+  background-repeat: no-repeat;
+  background-size: 1.2rem;
+  display: flex;
+  margin-top: 1rem;
+}
+main .word .address {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.6rem;
+  padding: 0;
+  font-weight: bold;
+  margin: 0;
+}
+ul .skill {
+  border-bottom: 1px solid #cccccc;
+  height: 5rem;
+}
+ul .skill .skill1 {
+  border-left: 2px solid #5fc0cd;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+ul .live {
+  background-image: url(星星.png);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: 1rem ;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-bottom: 1px solid #cccccc;
+  height: 5rem;
+}
+ul .live .live1 {
+  padding-left: 3rem;
+}
+ul .live .food {
+  background-image: url(星星.png);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: 1rem ;
+}
+ul .live .food .food1 {
+  padding-left: 3rem;
+}
+ul .time {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-bottom: 1px solid #cccccc;
+  height: 5rem;
+}
+ul .time .time1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+}
+ul .time .time2 {
+  padding-left: 1rem;
+  border-left: 1px solid #cccccc;
+}
+ul .long {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-bottom: 1px solid #cccccc;
+  height: 5rem;
+}
+ul .long .time1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+}
+ul .long .time2 {
+  padding-left: 1rem;
+  border-left: 1px solid #cccccc;
+}
+ul .long .long1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+}
+ul .long .long2 {
+  padding-left: 1rem;
+  border-left: 1px solid #cccccc;
+}
+ul .money {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-bottom: 1px solid #cccccc;
+  height: 5rem;
+}
+ul .money .time1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+}
+ul .money .time2 {
+  padding-left: 1rem;
+  border-left: 1px solid #cccccc;
+}
+ul .money .money1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+}
+ul .money .money2 {
+  padding-left: 1rem;
+  border-left: 1px solid #cccccc;
+  color: #E26163;
+}
+ul .intro {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  min-height: 5rem;
+}
+ul .intro .intro1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: #ccc;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #cccccc;
+}
+ul .intro .intro2 {
+  padding-left: 1rem;
+}
