@@ -1,0 +1,182 @@
+html {
+    font-size: 62.5%;
+    background-color: #ccc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5rem;
+    width: 100%;
+}
+
+.icon1 {
+    background-image: url(xiaomulu.png);
+    width: 3rem;
+    height: 3rem;
+    /* position: absolute; */
+    transform: scale(0.6);
+    z-index: 100;
+}
+
+
+#sidemenu {
+    display: none;
+}
+
+#sidemenu:checked+aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ main {
+    transform: translateX(200px);
+}
+
+#sidemenu:checked ~ header {
+    background: #5fc0cd;
+    width: 100%;
+}
+
+#sidemenu:checked ~ #wrap {
+    /*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+    padding-left: 200px;
+}
+
+aside {
+    /*侧边栏,初始位置为-200px，即隐藏效果*/
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    transition: 0.2s ease-out;
+    z-index: 100;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+aside>ul{
+    padding-left: 0;
+}
+
+#sideul li {
+    list-style: none;
+    color: #5fc0cd;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+main {
+    /* background-color: #ccc; */
+    padding-top: 5rem;
+
+}
+
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 对box1与内容pubg等进行flex布局 */
+    /* margin-top: 2rem; */
+    /* 撑开与header的距离 */
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    height: 6rem;
+    color: #ccc;
+    border-radius: 2%;
+}
+
+.icon2 {
+    background-image: url(go.png);
+    width: 2rem;
+    height: 2rem;
+    /* position: absolute; */
+    /* 父元素布局影响到了icon2的位置，目前只能想到用position；absolute */
+    right: 6%;
+}
+
+.box2 {
+    /* margin-top: 2rem; */
+    width: 90%;
+    min-height: 42rem;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.title1 {
+    width: 100%;
+    height: 4rem;
+    /* text-align: center; */
+    color: gold;
+    /* padding-top: 1rem; */
+    border-bottom: 1px solid gold;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 1.2rem; */
+}
+
+.id1 {
+    /* font-size: 1.6rem; */
+    line-height: 8rem;
+    width: 80%;
+    /* background-color: #5fc0cd; */
+    /* text-align: center; */
+    color: white;
+    /* margin-bottom: 1rem; */
+    /* margin-top: 1rem; */
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.point1 {
+    /* display: inline-block; */
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    /* background-color: #5fc0cd; */
+    /* margin-right: 0.5rem; */
+    /* margin-top: 0.5rem; */
+}
+
+.point2 {
+    /* display: inline-block; */
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #ccc;
+    /* margin-right: 0.5rem; */
+    /* margin-top: 0.5rem; */
+}
+
+.icon3 {
+    background-image: url(sanjiao.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    height: 5rem;
+    width: 3rem;
+    transform: scale(0.5);
+    /* position: absolute; */
+    right: 5%;
+    top: 35rem;
+}
