@@ -1,0 +1,28 @@
+
+.grid-container { width: 100%;}
+/*-- 使用 cleafix 清除浮动 -- */
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+[class*='col-'] {
+    float: left;
+}
+@media screen and (max-width:767px){
+    .col-1{float: left; width: 100%; }
+    .col-2{float: left; width: 100%; }
+
+}
+
+@media screen and (min-width:992px){
+.col-1 {width: 25%;}
+.col-2 { width: 50%;}
+.col-3 {width: 75%;}
+.col-4 { width: 100%;}
+.col-5{width: 33.3%;}
+/*-- 列的额外内容样式 --*/
+[class*='col-']>p {
+    text-align: center;
+}}

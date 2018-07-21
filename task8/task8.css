@@ -182,13 +182,7 @@ ul>li>a {
 .student{
 }
 
-.img1 {
-    margin-top: 1.3rem;
-}
 
-.img2 {
-    margin-top: 0.5rem;
-}
 
 .people {
     background-image: url(people.png);
@@ -214,9 +208,7 @@ ul>li>a {
 .content2 {
     padding-top: 2rem;
 }
-.content3{
 
-}
 @media screen and (min-width:767px) and (max-width:992px) {
 .time{
     padding: 0 3%;

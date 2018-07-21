@@ -1,0 +1,120 @@
+
+.header {
+    height: 4rem;
+    width: 100%;
+}
+
+
+.headleft {
+    font-size: 1.3rem;
+    /* display: inline-block; */
+    padding-top: 1rem;
+}
+
+.container>.navbar-nav {
+    margin: 0;
+}
+
+.headright {
+    /* display: inline-block; */
+    background-image: url(login.png);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    height: 3rem;
+    width: 8rem;
+    background-size: 90%;
+    /* float: right; */
+    /* margin-top: 0.5rem; */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar {
+    background-color:#29b078;
+    width: 100%;
+    height: 6rem;
+}
+@media screen and (min-width:767px){
+.navbar .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+    line-height: 6rem;
+} 
+.navbar>.bigbox1>ul>li:hover {
+    border-bottom: 4px solid white;
+    margin-bottom: 0;
+}
+}
+.navbar>.bigbox1>ul>li {
+    font-size: 1.6rem;
+    list-style: none;
+    margin-left: 3rem;
+    line-height: 5.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar>.bigbox1>ul>li>a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.bigbox1 {
+    /* text-align: right; */
+    width: 90%;
+    margin: 0 auto;
+}
+.box12 {
+    /* display: inline-block; */
+    background-image: url(jnshu.png);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    background-size: 80%;
+    width: 12rem;
+    height: 5rem;
+    margin-left: -1%;
+    margin-top: 0.5rem;
+    /* position: absolute; */
+    /* margin-top: 1rem; */
+}
+@media screen and (max-width:767px) {
+    .navbar .nav-list {
+        margin: 0;
+        padding: 0;
+        display: none;
+        line-height: 6rem;
+        transition-duration: 1s;
+    }
+    .navbar>.bigbox1>ul>li:hover{
+        background-color: #29b099;
+    }
+    
+    .navbar input:checked~.nav-list {
+        display: block;
+    }
+
+    .navbar>.bigbox1>label {
+        display: inline-block;
+        margin:1.3rem  1rem ;
+    }
+
+    .navbar input:checked~.nav-list li {
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+
+    }
+
+    .navbar{
+        background-color: #29b078;
+        width: 100%;
+        height: auto;
+    }
+
+}

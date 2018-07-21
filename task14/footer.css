@@ -1,0 +1,94 @@
+footer {
+    /* display: inline-block; */
+    /* position: relative; */
+    bottom: 0;
+    width: 100%;
+    background-color: #29b078;
+    /* font-size: 1.3rem; */
+    color: #fff;
+    /* padding-top: 1rem; */
+}
+.col-1>.footleft1>a{
+    text-decoration-line: none;
+    color: #fff;
+}
+
+
+.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.kongge{
+    margin-bottom: 1rem;
+    opacity: 0;
+}
+
+ul>li>a {
+    color: #fff;
+    text-decoration-line: none;
+}
+.footright6{
+    margin-top: 1rem;
+    width: 8.5rem;
+    height: 8.5rem;
+}
+.foot1{
+    margin-top: 1rem;
+}
+.footbox1{
+    margin-bottom: 1rem
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    .container>.row>.footright4 {
+    width: auto;
+    float: right;
+}
+.bigbox2{
+    margin: 0 auto;
+    text-align: left;
+}
+}
+@media screen and (min-width:992px){
+    .bigbox2{
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .footright4{
+        float: right;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .container>.footbox1{
+        margin-left: 10%;
+    }
+  
+    .bigbox2{
+        margin: 0 auto;
+        text-align: left;
+    }
+    .kongge{
+        display: none;
+    }
+    .footleft1{
+        margin-top: 1rem;
+    }
+    .bigbox2>h4{
+        margin-top: 1rem;
+    }
+    .footright4>h4{
+        margin-top: 1rem;
+    }
+}
+.address {
+    background-color: #29b078;
+    /* font-size: 1.2rem; */
+    color: #fff;
+    line-height: 2rem;
+    /* text-align: center; */
+    border-top: 1px solid #ccc;
+}

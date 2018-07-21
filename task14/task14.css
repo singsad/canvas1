@@ -1,0 +1,527 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.rocket {
+    width: 43px;
+    height: 61px;
+}
+
+.school {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.6rem;
+}
+
+.student {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img1 {
+    margin-top: 1.3rem;
+}
+
+.img2 {
+    margin-top: 0.5rem;
+}
+
+.people {
+    display: inline-block;
+    background-image: url(people.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3rem;
+    width: 1.5rem;
+    vertical-align: middle;
+}
+
+.box2 {
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.number {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.people-number {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.content2 {
+    padding-top: 2rem;
+    border-left: 1px dashed #ccc;
+    margin-right: -1px;
+}
+
+@media screen and (max-width:767px) {
+    .content2 {
+        border: none;
+    }
+    .student {
+        width: 60%;
+    }
+    .time {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.howstudy {
+    line-height: 20rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.study1 {
+    width: 70%;
+    height: 10rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #29b078;
+    /* margin-right: 1rem; */
+    text-align: center;
+    /* margin-bottom: 1rem; */
+}
+
+.flow1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.flow4 {
+    display: flex;
+}
+
+/* 
+.flow2{
+    display: flex;
+    align-items: center;
+} */
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.box1 {
+    display: inline-block;
+    line-height: 5rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.img3 {
+    width: 3rem;
+}
+
+.none {
+    visibility: hidden;
+}
+
+.photo4 {
+    padding: 1rem;
+}
+
+.photo3 {
+    padding-right: 1rem;
+}
+
+.box5 {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.time1 {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    .time1 {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .time1 {
+        padding: 0 20%;
+    }
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
+
+@media (min-width:768px) {
+    .company1,
+    .company2,
+    .company3,
+    .company4,
+    .company5 {
+        display: inline-block;
+        width: 100%;
+        line-height: 20rem;
+        text-align: center;
+        border: none;
+        background-color: #fff;
+        margin-right: 1rem;
+    }
+    .company1:hover,
+    .company2:hover,
+    .company3:hover,
+    .company4:hover,
+    .company5:hover {
+        box-shadow: 2px 2px 5px 5px #aaa;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+    .company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .company1,
+    .company2,
+    .company3,
+    .company4,
+    .company5 {
+        display: inline-block;
+        width: 100%;
+        line-height: 20rem;
+        text-align: center;
+        border: none;
+        background-color: #fff;
+        margin-bottom: 1rem;
+    }
+    .company1:hover,
+    .company2:hover,
+    .company3:hover,
+    .company4:hover,
+    .company5:hover {
+        box-shadow: 2px 2px 5px 5px #aaa;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1400px) {
+    .company {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .company1,
+    .company2,
+    .company3,
+    .company4,
+    .company5 {
+        display: inline-block;
+        width: 44%;
+        line-height: 20rem;
+        text-align: center;
+        border: none;
+        background-color: #fff;
+        margin-bottom: 1rem;
+    }
+    .company1:hover,
+    .company2:hover,
+    .company3:hover,
+    .company4:hover,
+    .company5:hover {
+        box-shadow: 2px 2px 5px 5px #aaa;
+    }
+}
+
+.link {
+    line-height: 20rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+@media (min-width:768px) {
+    .column {
+        color: gray;
+        font-size: 1.2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .column1 {
+        width: 9%;
+    }
+    .link1 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .column {
+        color: gray;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .column1 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .link1 {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+    .column {
+        color: gray;
+        font-size: 1.2rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+    .column1 {
+        width: 34%;
+        display: flex;
+        /* margin-bottom: 2rem; */
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        padding-left: 9rem;
+    }
+    .column2 {
+        width: 34%;
+        display: flex;
+        /* margin-bottom: 2rem; */
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+    .link1 {
+        margin-right: 4rem;
+        padding-right: 0;
+    }
+}
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    }
+    section>ul>li{
+    list-style: none;
+    }
+    .focus-container>ul>li{
+        list-style: none;
+
+    }
+
+    /*css reset end*/
+    
+    /*css public start*/
+    .floatfix {
+    *zoom: 1;
+    }
+    .floatfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    /*css public end*/
+    
+    /*slider start*/
+    .slider-contaner{
+    width:100%;
+    position:relative;
+    }
+    .slider-item + .slider-item{
+    opacity:0;
+    }
+    .slider-item{
+    width:100%;
+    position:absolute;
+    animation-timing-function: linear;
+    animation-name:fade;
+    animation-iteration-count: infinite;
+    background-size:100%;
+    }
+    .focus-container{
+    position:absolute;
+    z-index:7;
+    margin:0 auto;
+    left:0;
+    right:0;
+    }
+    .focus-container li{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    float:left;
+    margin-right:10px;
+    background:#fff;
+    }
+    .focus-item{
+    width:100%;
+    height:100%;
+    border-radius:inherit;
+    animation-timing-function: linear;
+    animation-name:fade;
+    animation-iteration-count: infinite;
+    }
+    .focus-item2,.focus-item3,.focus-item4,.focus-item5{
+    opacity:0;
+    }
+    .focus-container ul{
+    margin-left:46%;
+    }
+    /*设置轮播焦点的位置*/
+    .focus-container{
+    bottom:2%;
+    }
+    /*设置当前图片焦点的颜色*/
+    .focus-item{
+    background:#51B1D9;
+    }
+    /*设置动画，请根据实际需要修改秒数*/
+    .slider-item,.focus-item{
+    animation-duration: 20s;
+    }
+    .slider-item1,.focus-item1{
+    animation-delay: -1s;
+    }
+    .slider-item2,.focus-item2{
+    animation-delay: 3s;
+    }
+    .slider-item3,.focus-item3{
+    animation-delay: 7s;
+    }
+    .slider-item4,.focus-item4{
+    animation-delay: 11s;
+    }
+    .slider-item5,.focus-item5{
+    animation-delay: 15s;
+    }
+    @keyframes fade{
+    0%{
+    opacity:0;
+    z-index:2;
+    }
+    5%{
+    opacity:1;
+    z-index: 1;
+    }
+    20%{
+    opacity:1;
+    z-index:1;
+    }
+    25%{
+    opacity:0;
+    z-index:0;
+    }
+    100%{
+    opacity:0;
+    z-index:0;
+    }
+    }
+    /*设置背景，响应式请利用媒体查询根据断点修改路径*/
+    .slider-item1{
+    background-image:url(skill.png);
+    }
+    .slider-item2{
+    background-image:url(1.png);
+    }
+    .slider-item3{
+    background-image:url(2.png);
+    }
+    .slider-item4{
+    background-image:url(skill.png);
+    }
+    .slider-item5{
+    background-image:url(1.png);
+    }
+    /*设置图片的高度，请根据具体需要修改百分比，响应式及时修改此值*/
+    .slider,.slider-item{
+        padding-bottom:30%;
+    }
+
+    section{
+        margin-bottom: 8rem;
+    }
+
+    @media screen and (min-width:767px) and (max-width:992px) {
+        .col-1{
+            float: left;
+            width: 50%;
+        }
+    }

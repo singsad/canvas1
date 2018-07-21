@@ -113,6 +113,7 @@ main{
 }
 .show4{
     line-height:20vw;
+    border: 2px solid #fff;
 }
 
 .show2{
@@ -125,6 +126,9 @@ main{
 .show3{
    /* text-align:center; */
    line-height:5vw;
+   border: 2px solid #fff;
+   border-top: none;
+
 }
 .img{
     height: 5vw;
@@ -149,6 +153,7 @@ footer {
     /* text-align: center; */
     /* margin-top: 2rem; */
     /* font-size: 2rem; */
+    border: none;
 }
 
 
