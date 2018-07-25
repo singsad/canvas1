@@ -25,7 +25,7 @@ body{
     border: 2px solid orange;
     background-color: #fff;
     font-weight: 800;
-
+    outline: none;
 }
 .false{
     width:100%;
@@ -35,14 +35,13 @@ body{
     border: 2px solid orange;
     background-color: #fff;
     font-weight: 800;
+    outline: none;
 }
 .true:hover{
     background-color: orange;
     color: #fff;
-    outline: none;
 }
 .false:hover{
     background-color: orange;
     color: #fff;
-    outline: none;
 }
