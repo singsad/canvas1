@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>玩家配比</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="task2-1.css" />
+   
+</head>
+
+<body>
+    <header>
+        <span class="icon-back"></span>
+        <span class="word">参数设置</span>
+        <span class="icon-help"></span>
+    </header>
+
+    <main>
+        <div class="main-top">
+            <div class="top-left">
+                <div class="top-left-word">
+                    玩家配比</div>
+            </div>
+            <div class="top-right">
+                <div class="trt" id="fe">
+                    <ul id="list" class="list1" style="margin: 0">
+                         
+                    </ul>
+                 
+                </div>
+                <button class="top-right-bottom" onclick="number()">
+                    点击设置
+                </button>
+            </div>
+        </div>
+
+        <div class="main-center">
+            <input type="text" class="center-top" placeholder="水民词组">
+            <input type="text" class="center-bottom" placeholder="幽灵词组">
+        </div>
+
+        <div class="main-bottom">
+            <div class="people-number">
+                玩家人数&nbsp;&nbsp;
+                <input type="number" id="number" value="4"> &nbsp;&nbsp;人
+            </div>
+            <div class="bottom-button">
+                <input type="button" class="down-icon" onclick="left_icon()">
+                <input type="range" id="rangenumber" oninput="change()" value="4" min="4" max="18" step="1">
+                <input type="button" class="add-icon" onclick="right_icon()">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button class="begin">
+            开始发牌
+        </button>
+    </footer>
+    <script src="task2-1.js"></script>
+</body>
+
+
+</html>

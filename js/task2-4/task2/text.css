@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5fc0cd;
+}
+
+header {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon1 {
+    background-image: url(mulu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4rem;
+    width: 4rem;
+    transform: scale(0.5);
+}
+
+main {
+    height: 6rem;
+    display: flex;
+    position: fixed;
+}
+
+.head {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.icon2 {
+    background-image: url(x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4rem;
+    width: 4rem;
+    transform: scale(0.5);
+}
+
+.head1 {
+    height: 5rem;
+}
+
+.box1 {
+    position: fixed;
+    display: inline-block;
+    line-height: 5rem;
+    width: 100%;
+    background-color: #b9e9f5;
+    font-size: 1.35rem;
+}
+
+.choose {
+    margin-left: 4rem;
+}
+
+.icon3 {
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid #b9e9f5;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.icon4 {
+    display: inline-block;
+    background-image: url(bofang.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5rem;
+    width: 5rem;
+    transform: scale(0.5);
+    position: absolute;
+    right: 0;
+}
+
+.word {
+    display: inline-block;
+    height: 2rem;
+    width: 100%;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.foot {
+    display: block;
+    background-color: orange;
+    color: white;
+    line-height: 4rem;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.click {
+    margin-top: 8rem;
+}
+
+.show {
+    float: left;
+    height: 23.3333333333vw;
+    background-color: white;
+    width: 23.333333333333333%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+        border: 3px solid white;
+
+}
+
+.show1 {
+    display: flex;
+    color: gray;
+     align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f5c97b;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.show2 {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    text-align: center;
+    margin-top: -18%; 
+    background-color: #ccc;
+    /* width: 100%; */
+
+}
+
+.show3{
+    width: 100%;
+    color: white;
+    background-color: #ccc;
+    font-size: 1.4rem;
+    /* position: relative; */
+}
+.show4{
+    background-image: url(xiaotu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4rem;
+    width: auto;
+}
