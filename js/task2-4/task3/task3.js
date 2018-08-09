@@ -24,6 +24,8 @@ window.onload = function(){
     node1.appendChild(textnode1);
     var tou = document.getElementById('tou');
     tou.style.display = 'none';
+    var sha = document.getElementById('sha');
+    sha.style.display = 'none';
 }
 
 
@@ -36,16 +38,25 @@ function go(){
     x += 1;
     console.log(x)
     if(x%2==1){
+
+        if(newnum[x-i]=='平民'){
         var fan = document.getElementById('fan');
         fan.style.display = 'none'
         var tou = document.getElementById('tou');
         tou.style.display = 'block';
+    }else{
+            var fan = document.getElementById('fan');
+            fan.style.display = 'none'
+            var sha = document.getElementById('sha');
+            sha.style.display = 'block';
+        }
 
         var ren = document.getElementById('ren');
         var node2 = document.createElement('span');
         var textnode2 = document.createTextNode(newnum[x-i])
         ren.appendChild(node2);
         node2.appendChild(textnode2);
+        console.log(node2)
         
         //******* */重要的删除前面的操作，使用removechild无果，发现可以用innerhtml覆盖！
         document.getElementById('check').innerHTML = "";
@@ -71,11 +82,14 @@ function go(){
 
 
     } else if(i < (newnum.length+1)){
+
         var tou = document.getElementById('tou');
         tou.style.display = 'none';
         var fan = document.getElementById('fan');
         fan.style.display = 'block'
-
+        var sha = document.getElementById('sha');
+        sha.style.display = 'none';
+               
         document.getElementById('circle').innerHTML = "";
         document.getElementById('ren').innerHTML = "";
         document.getElementById('check').innerHTML = "";
@@ -98,3 +112,4 @@ function go(){
     }
 
 }
+

@@ -71,3 +71,30 @@ function shine1() {
         box[m].style.background='orange';
     }
 };
+
+var newarr = [];
+
+  
+    newarr[0] = {
+      "role": "平民",
+      "state": "alive"
+    }
+ 
+    newarr[1] = {
+      "role": "杀手",
+      "state": "alive"
+    }
+     newarr[2] = {
+        "role": "杀手",
+        "state": "dead"
+     }
+     console.log(newarr)
+
+var myfilter = newarr.filter(function (item, index, array) {
+    console.log(item)
+    console.log(index)
+    item.state == 'alive';
+  
+    return (newarr);
+  })
+  console.log(myfilter)

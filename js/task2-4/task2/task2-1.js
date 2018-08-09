@@ -1,15 +1,15 @@
 function number() {
     var num_man = document.getElementById('number').value;
-    console.log(num_man);
+    // console.log(num_man);
     // var setup = document.getElementsByClassName('top-right-top');
     var all =[];
     // all.length=inputnumber.value;
     
     //杀手与农民的人数
     var killer = Math.floor(inputnumber.value/3);
-    console.log(killer)
+    // console.log(killer)
     var farmer = inputnumber.value-killer;
-    console.log(farmer)
+    // console.log(farmer)
     
     //把杀手。农民人数加进总人数里
     for(i = killer;i > 0;i --){
@@ -26,7 +26,7 @@ function number() {
         newbox.push(all[ran]);
         all.splice(ran, 1);
     };
-    console.log(newbox.length);
+    // console.log(newbox.length);
 
 
     //洗牌
@@ -48,8 +48,8 @@ function number() {
     //防止重复点击，每次点击删除上次append的数据
     var list = document.getElementById('list');
     var noder = document.getElementsByTagName('li');
-    console.log(list)
-    console.log(noder)
+    // console.log(list)
+    // console.log(noder)
     if(noder.length>0){
         for(n=noder.length;n>0;n--)
         list.removeChild(noder[0]);
@@ -81,7 +81,7 @@ function number() {
    storage.setItem('杀手',killer);
    storage.setItem('平民',farmer);
 
-   console.log(newbox)
+//    console.log(newbox)
    return newbox;
 }
 

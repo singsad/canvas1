@@ -83,6 +83,16 @@ header{
     margin: 0 auto;
     margin-bottom: 7rem;
 }
+
+.sha{
+    background-image: url(lang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14rem;
+    height: 14rem;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
 .ren{
     font-size: 2rem;
     color: #29bde0;

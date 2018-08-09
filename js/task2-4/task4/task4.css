@@ -1,0 +1,177 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid white;
+    background-color: #29bde0;
+}
+
+.back {
+    background-image: url(Back.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.word {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.false {
+    background-image: url(x.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.head {
+    height: 5rem;
+}
+
+
+.firstd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.firstd_word {
+    width: 95%;
+    background-color: #fff;
+    border-style: none;
+    outline: none;
+    border: 1px solid #ccc;
+    height: 4rem;
+    color: #29bde0;
+    padding: 0;
+}
+
+.step_ {
+    width: calc(95% - 2px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.step_1 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-left: 2rem;
+    border-left: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.killword{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.san {
+    display: inline-block;
+    border: 2rem solid #29bde0;
+    border-left: 2rem solid #fff;
+    border-top: 2rem solid #fff;
+    border-bottom: 2rem solid #fff;
+    margin-right: -1rem;
+}
+
+.step1 {
+    height: 4rem;
+    border-style: none;
+    outline: none;
+    width: 80%;
+    background-color: #29bde0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.noon {
+    background-image: url(noon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #fff;
+    position: absolute;
+    left: -1.6rem;
+}
+
+.sun {
+    background-image: url(sun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #fff;
+    position: absolute;
+    left: -1.6rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.over{
+    border: none;
+    outline: none;
+    width: 40%;
+    background-color: #f40;
+    color: #fff;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+.log{
+    border: none;
+    outline: none;
+    width: 40%;
+    background-color: #fbb435;
+    height: 4rem;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 5px;
+
+}
+
+.ancolor{
+    background-color: #83b09a  !important;
+}
+
+.bccolor{
+    background-color: #f5c97b !important;
+
+}

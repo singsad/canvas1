@@ -39,3 +39,7 @@ window.onload = function(){
    }
 
 }
+
+function begin(){
+  window.location.href = "../task4/task4.html"
+}
