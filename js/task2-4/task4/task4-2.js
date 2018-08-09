@@ -33,3 +33,8 @@ if (window.sessionStorage.getItem('deather') !== null) {
         }
     }
     }
+
+    $('.foot1').click(function(){
+        sessionStorage.clear();
+        window.location.href = '../task2/task2-1.html'
+    })

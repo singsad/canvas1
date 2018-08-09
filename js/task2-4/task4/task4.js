@@ -200,3 +200,9 @@ $(".firstd_word").click(function () {
 
 // $('.san').eq(y).addClass("ancolor")
 // $('.step1').eq(y).addClass('ancolor');
+
+$('.over').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task2-1.html'
+})
+
