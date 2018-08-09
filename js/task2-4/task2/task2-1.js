@@ -134,3 +134,12 @@ function go(){
 
 }
 
+$('.icon-back').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task13.html'
+})
+
+$('.icon-help').click(function(){
+    sessionStorage.clear();
+    window.location.href = 'http://www.baidu.com'
+})

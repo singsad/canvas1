@@ -43,3 +43,13 @@ window.onload = function(){
 function begin(){
   window.location.href = "../task4/task4.html"
 }
+
+$('.back').click(function(){
+  sessionStorage.clear();
+  window.location.href = '../task2/task2-1.html'
+})
+
+$('.false').click(function(){
+  sessionStorage.clear();
+  window.location.href = '../task2/task13.html'
+})

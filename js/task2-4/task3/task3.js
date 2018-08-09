@@ -113,3 +113,15 @@ function go(){
 
 }
 
+$('.back').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task2-1.html'
+})
+
+$('.false').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task13.html'
+})
+
+
+

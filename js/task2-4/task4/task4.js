@@ -206,3 +206,16 @@ $('.over').click(function(){
     window.location.href = '../task2/task2-1.html'
 })
 
+$('.log').click(function(){
+    window.location.href = '../task3/task3-1.html'
+})
+
+$('.back').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task2-1.html'
+})
+
+$('.false').click(function(){
+    sessionStorage.clear();
+    window.location.href = '../task2/task13.html'
+})

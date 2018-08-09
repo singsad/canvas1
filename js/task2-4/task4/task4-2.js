@@ -38,3 +38,19 @@ if (window.sessionStorage.getItem('deather') !== null) {
         sessionStorage.clear();
         window.location.href = '../task2/task2-1.html'
     })
+
+    
+    $('.foot2').click(function(){
+        sessionStorage.clear();
+        window.location.href = '../task2/task13.html'
+    })
+
+    $('.left').click(function(){
+        sessionStorage.clear();
+        window.location.href = '../task2/task2-1.html'
+    })
+
+    $('.right').click(function(){
+        sessionStorage.clear();
+        window.location.href = 'http://www.baidu.com'
+    })
