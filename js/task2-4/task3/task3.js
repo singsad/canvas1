@@ -6,9 +6,9 @@ var farmernum = storage.getItem("平民");
 var get = sessionStorage.newbox;
 var newnum = JSON.parse(get);
 
-console.log(killernum)
-console.log(farmernum)
-console.log(newnum)
+// console.log(killernum)
+// console.log(farmernum)
+// console.log(newnum)
 
 //初始加载显示上方的1与下方的查看身份
 window.onload = function(){

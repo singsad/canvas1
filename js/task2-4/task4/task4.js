@@ -121,7 +121,6 @@ $(document).ready(function () {
     //添加判断，添加盒子
     console.log(diemoon)
     if (window.sessionStorage.getItem('deather') !== null) {
-
     for(k = 0;k < deather.length;k++){
         console.log(k);
         var t = deather[k];

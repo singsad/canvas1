@@ -1,14 +1,15 @@
-html{
+html {
     font-size: 62.5%;
 }
-body{   
+
+body {
     background-color: #29bde0;
     padding: 0;
     margin: 0;
     padding-bottom: 15rem;
 }
 
-header{
+header {
     height: 6rem;
     width: 100%;
     display: flex;
@@ -17,11 +18,9 @@ header{
     position: fixed;
     z-index: 100;
     background-color: #29bde0;
-
 }
 
-
-.head{
+.head {
     /* display: flex; */
     height: 5rem;
     position: fixed;
@@ -37,37 +36,35 @@ header{
     padding-left: 4rem;
 }
 
-
 .icon3 {
     width: 0;
     height: 0;
     border-left: 0.5rem solid transparent;
     border-right: 0.5rem solid transparent;
     border-top: 1rem solid #b9e9f5;
-
 }
-.icon31{
-   width: 100%;
-   padding-left: 5rem;
-   background-color: #29bde0;
 
+.icon31 {
+    width: 100%;
+    padding-left: 5rem;
+    background-color: #29bde0;
 }
+
 .word1 {
     height: 4rem;
     width: 100%;
     color: white;
     font-size: 1.3rem;
- 
 }
-.word2{
+
+.word2 {
     padding-left: 4rem;
     padding-top: 1rem;
     background-color: #29bde0;
     font-size: 1.4rem;
-
 }
 
-.back{
+.back {
     background-image: url(Back.png);
     background-size: 50%;
     background-repeat: no-repeat;
@@ -76,11 +73,12 @@ header{
     margin-left: 1rem;
 }
 
-.word{
+.word {
     color: #fff;
     font-size: 2rem;
 }
-.false{
+
+.false {
     background-image: url(x.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -89,8 +87,7 @@ header{
     margin-right: 1rem;
 }
 
-
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +97,9 @@ footer{
     z-index: 100;
     width: 100%;
     background-color: #29bde0;
-
 }
- .begin{
+
+.begin {
     height: 4.5rem;
     line-height: 4.5rem;
     text-align: center;
@@ -111,20 +108,18 @@ footer{
     background-color: #fab344;
     color: #fff;
     border: none;
-} 
+}
 
-
-
-main{
+main {
     display: inline-block;
     width: 100%;
-
 }
-.show{
+
+.show {
     height: 100vw;
 }
 
-.show1{
+.show1 {
     padding: 0;
     margin: 0;
     width: 23.3%;
@@ -140,9 +135,11 @@ main{
     position: relative;
     border: none;
     outline: none;
+    border:1px solid #fff;
+
 }
 
-.show4{
+.show4 {
     display: inline-block;
     width: 100%;
     line-height: 20vw;
@@ -150,40 +147,37 @@ main{
 
 }
 
-.show1:hover{
+.show1:hover {
     background-color: #83b09a;
 }
 
-.show2{
+.show2 {
     display: inline-block;
     background-color: #83b09a;
-    height: 20%;
+    line-height: 3.3vw;
     width: 100%;
     position: absolute;
     bottom: 0;
+    outline: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.show3 {
+    display: inline-block;
+    text-align: center;
     border: none;
     outline: none;
     padding: 0;
     margin: 0;
+    background-color: #83b09a;
 }
 
-
-.show3{
-    display: inline-block;
-   text-align:center;
-   border: none;
-   outline: none;
-   padding: 0;
-   margin: 0;
-   background-color: #83b09a;
-
+.ancolor {
+    background-color: #83b09a !important;
 }
 
-.ancolor{
-    background-color: #83b09a  !important;
-}
-
-.bccolor{
+.bccolor {
     background-color: #f5c97b !important;
-
 }

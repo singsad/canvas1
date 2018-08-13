@@ -220,8 +220,6 @@ window.onload = function () {
       return (item.state == 'alive');
     })
     console.log(myfilter)
-
-
     var killn = 0;
     var farmern = 0;
     console.log(newarr)

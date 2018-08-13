@@ -4,7 +4,6 @@ function number() {
     // var setup = document.getElementsByClassName('top-right-top');
     var all =[];
     // all.length=inputnumber.value;
-    
     //杀手与农民的人数
     var killer = Math.floor(inputnumber.value/3);
     // console.log(killer)
