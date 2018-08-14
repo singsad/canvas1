@@ -4,17 +4,11 @@
     //     var xmlhttp = new XMLHttpRequest();
 
     //     xmlhttp.open('POST', '/carrots-admin-ajax/a/login', true);
-
     //     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
     //     xmlhttp.send('name=' + un + '&pwd=' + pw)
-
     //     var state = xmlhttp.readyState;
-
     //     var status = xmlhttp.status;
-
     //     var content = xmlhttp.responseText;
-
     //     xmlhttp.onreadystatechange = function () {
     //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
     //             //双重判断。4为读取服务器响应结束，200为成功
@@ -24,8 +18,7 @@
     //             if (text.message == 'success') {
     //                 window.location.href = "http://www.taobao.com"
     //             } else {
-    //                 alert(
-    //                     document.getElementById('msg').innerHTML = text.message)
+    //                 adocument.getElementById('#msg').innerHTML = text.message
     //             }
     //         }
     //     }
@@ -44,8 +37,11 @@
                 success:function(data){
                     if (data.message == 'success') {
                         window.location.href = "http://www.taobao.com"
+                    }else if(un !== ''){
+                        $('#msg').text(data.message)
+                        console.log(data)
                     }else{
-                       alert($('.msg').innerHTML = data.message)
+                        $('#msg').text('请输入用户名')
                     }
                 }
             })
